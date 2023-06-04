@@ -8,7 +8,7 @@ const app=express()
 
 
 app.get('/',(req,res)=>{
-    console.log(hello)
+    console.log('hello world')
 })
 
 app.listen(port,()=>{
